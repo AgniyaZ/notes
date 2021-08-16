@@ -9,3 +9,13 @@
     git config user.name "FIRST_NAME LAST_NAME"
     git config user.email "MY_NAME@example.com"
     cat .git/config
+
+## Настройка алиасов
+
+Добавьте следующее в файл .gitconfig в вашем $HOME каталоге:
+
+    [alias]
+        co = checkout
+        ci = commit
+        st = status
+        br = branch
